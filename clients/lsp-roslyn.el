@@ -87,9 +87,9 @@ Unused on other platforms.")
   :package-version '(lsp-mode . "8.0.0")
   :group 'lsp-roslyn)
 
-(defcustom lsp-roslyn-package-version "4.13.0-2.24564.12"
+(defcustom lsp-roslyn-package-version "5.0.0-1.25277.114"
   "Version of the Roslyn package to install.
-Gotten from https://dev.azure.com/azure-public/vside/_artifacts/feed/vs-impl/NuGet/Microsoft.CodeAnalysis.LanguageServer.win-x64"
+Gotten from https://www.nuget.org/packages/Microsoft.CodeAnalysis.LanguageServer.neutral#versions-body-tab"
   :type 'string
   :package-version '(lsp-mode . "8.0.0")
   :group 'lsp-roslyn)
